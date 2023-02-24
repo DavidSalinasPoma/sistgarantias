@@ -16,6 +16,9 @@ import { RegisterComponent } from './register/register.component';
 // Notificaciones
 import { ToastrModule } from 'ngx-toastr';
 
+// Modulos internos
+import { SharedModule } from '../shared/shared.module';
+
 @NgModule({
   declarations: [
     LoginComponent,
@@ -29,6 +32,7 @@ import { ToastrModule } from 'ngx-toastr';
     HttpClientModule,
     BrowserAnimationsModule, // required animations module
     ToastrModule.forRoot(), // ToastrModule added
+    SharedModule
 
   ],
   exports: [

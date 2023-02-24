@@ -4,6 +4,7 @@ import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { NavloginComponent } from './navlogin/navlogin.component';
 
 
 
@@ -12,7 +13,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     BreadcrumbsComponent,
     FooterComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    NavloginComponent
   ],
   imports: [
     CommonModule
@@ -21,7 +23,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     BreadcrumbsComponent,
     FooterComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    NavloginComponent
   ]
 })
 export class SharedModule { }
